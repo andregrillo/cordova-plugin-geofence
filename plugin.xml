@@ -19,7 +19,8 @@
         <clobbers target="geofence" />
     </js-module>
 
-    <dependency id="cordova-plugin-compat" version=">=1.0.0" />
+    <!-- Commented because no longer needed doc: https://github.com/apache/cordova-plugin-compat?tab=readme-ov-file#deprecated -->
+    <!-- <dependency id="cordova-plugin-compat" version=">=1.0.0" /> -->
     <dependency id="es6-promise-plugin" />
 
 <!-- android -->
