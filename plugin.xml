@@ -19,7 +19,8 @@
         <clobbers target="geofence" />
     </js-module>
 
-    <dependency id="cordova-plugin-compat" version=">=1.0.0" />
+    <!-- only for Android code for now we have disable until fix the issues AndroidX -->
+   <!-- <dependency id="cordova-plugin-compat" version=">=1.0.0" /> -->
     <dependency id="es6-promise-plugin" />
 
 <!-- android -->
